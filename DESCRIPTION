@@ -1,0 +1,11 @@
+Package: DispR
+Title: DispR: um pacote r para geracao de graficos de dispersao
+Version: 0.0.0.9000
+Authors@R: person("Marcela", "Almeida F. Souza", email = "marcela.souza.916708@sga.pucminas.br", role = c("aut", "cre"))
+Description: Pacote criado para plotagem de grafico de dispersao. Apresentação de TCC.
+Depends: R (>= 3.2.1)
+License: GNU GPL v3
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2
+RoxygenNote: 6.0.1
