@@ -2,8 +2,12 @@
 #'
 #' Foi criada uma funcao DispR que recebe como 
 #' parametro: DataSet(arquivo csv), os eixos x e y, 
-#' parâmetros para calcular a media, logaritmo e os outliers.
-#'
+#' parametros para calcular a media, logaritmo e os outliers.
+#' Com este pacote, eh possivel tracar uma linha media em relacaoo ao eixo y, 
+#' uma linha logaritmo do eixo y em relacao ao eixo x e 
+#' linhas que representam os outliers.
+#' Os outliers nao sao de fato calculados na funcao, somente a media e logaritmo
+#' 
 #'
 DispR <- function (data = NULL, AXIS_X, AXIS_Y, LineDesired_Average = NULL, 
                    Line_LOG = NULL, lineOutlierAbove = NULL, lineOutlierLow = NULL, 
